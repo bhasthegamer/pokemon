@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Pokémon Cards</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0;
+        }
+
+        .card {
+            width: 250px;
+            border: 2px solid #000;
+            border-radius: 10px;
+            margin: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .card img {
+            width: 100%;
+            border-bottom: 2px solid #000;
+        }
+
+        .card h2 {
+            text-align: center;
+            font-size: 20px;
+            margin: 10px 0;
+        }
+
+        .card p {
+            padding: 0 15px;
+            font-size: 14px;
+            text-align: center;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png" alt="Bulbasaur">
+        <h2>Bulbasaur</h2>
+        <p>Grass/Poison</p>
+        <p>HP: 45</p>
+    </div>
+
+    <div class="card">
+        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png" alt="Charmander">
+        <h2>Charmander</h2>
+        <p>Fire</p>
+        <p>HP: 39</p>
+    </div>
+
+    <div class="card">
+        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png" alt="Squirtle">
+        <h2>Squirtle</h2>
+        <p>Water</p>
+        <p>HP: 44</p>
+    </div>
+
+</body>
+</html>
